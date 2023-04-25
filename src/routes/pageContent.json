@@ -1,0 +1,24 @@
+{
+    "logo": "David Cannan",
+    "sections": [
+      {
+        "header": "Section 1",
+        "content": "THIS IS SECTION 1",
+        "image": "path/to/image1.jpg",
+        "link": "https://example.com/section1"
+      },
+      {
+        "header": "Section 2",
+        "content": "THIS IS SECTION 2",
+        "image": "path/to/image2.jpg",
+        "link": "https://example.com/section2"
+      },
+      {
+        "header": "Section 3",
+        "content": "THIS IS SECTION 3",
+        "image": "path/to/image3.jpg",
+        "link": "https://example.com/section3"
+      }
+    ]
+  }
+  
