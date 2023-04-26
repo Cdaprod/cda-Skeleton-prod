@@ -19,7 +19,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase sticky top right">David Cannan</strong>
+				<strong class="text-xl uppercase">David Cannan</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
