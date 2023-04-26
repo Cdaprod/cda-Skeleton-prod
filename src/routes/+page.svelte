@@ -36,7 +36,7 @@
 	</div>
 </div>
 
-<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-10 md:px-auto">
+<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-5 md:px-auto">
 	{#if pageContent && pageContent.sections}
 	{#each pageContent.sections as section, index}
 	  <SectionCard
