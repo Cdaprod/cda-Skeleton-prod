@@ -1,24 +1,52 @@
-{
-    "logo": "David Cannan",
-    "sections": [
-      {
-        "header": "Section 1",
-        "content": "THIS IS SECTION 1",
-        "image": "path/to/image1.jpg",
-        "link": "https://example.com/section1"
-      },
-      {
-        "header": "Section 2",
-        "content": "THIS IS SECTION 2",
-        "image": "path/to/image2.jpg",
-        "link": "https://example.com/section2"
-      },
-      {
-        "header": "Section 3",
-        "content": "THIS IS SECTION 3",
-        "image": "path/to/image3.jpg",
-        "link": "https://example.com/section3"
-      }
-    ]
+ {
+  "sections": [
+    {
+      "header": "Web Application Tester",
+      "content": "Test and optimize your web applications for performance, usability, and security. Our team of expert testers ensures your applications run smoothly on multiple devices and platforms, providing a seamless user experience for your audience.",
+      "image": "path/to/image1.jpg",
+      "link": "https://example.com/web-application-tester"
+    },
+    {
+      "header": "Software Developer",
+      "content": "Develop cutting-edge software solutions tailored to your business needs. Our skilled developers utilize modern technologies and best practices to create scalable and efficient applications that drive your business forward.",
+      "image": "path/to/image2.jpg",
+      "link": "https://example.com/software-developer"
+    },
+    {
+      "header": "CI/CD with GitHub and Linode",
+      "content": "Implement continuous integration and continuous deployment (CI/CD) workflows using GitHub and Linode. Streamline your development process, automate testing, and ensure seamless deployment of your applications to production.",
+      "image": "path/to/image3.jpg",
+      "link": "https://example.com/ci-cd"
+    },
+    {
+      "header": "Local and Web Networking",
+      "content": "Design and deploy robust network infrastructures that support your business operations. Our networking experts can help you optimize local networks and configure secure web connections for efficient communication and data exchange.",
+      "image": "path/to/image4.jpg",
+      "link": "https://example.com/networking"
+    },
+    {
+      "header": "Creating Digital Assets",
+      "content": "Enhance your brand presence with professional digital assets. Our creative team designs stunning visuals, engaging videos, and interactive media that capture your audience's attention and help you stand out in the digital space.",
+      "image": "path/to/image5.jpg",
+      "link": "https://example.com/digital-assets"
+    },
+    {
+      "header": "Mobile Application Development",
+      "content": "Build engaging mobile applications that delight your users and boost your brand. Our experienced mobile developers create native and cross-platform apps for iOS and Android devices, ensuring an exceptional user experience across all platforms.",
+      "image": "path/to/image6.jpg",
+      "link": "https://example.com/mobile-app-development"
+    },
+    {
+      "header": "Cloud Solutions",
+      "content": "Leverage the power of the cloud to improve efficiency, scalability, and security. Our cloud experts can help you design and implement cloud-based solutions, including infrastructure, storage, and computing services to power your business.",
+      "image": "path/to/image7.jpg",
+      "link": "https://example.com/cloud-solutions"
+    },
+    {
+      "header": "Data Analytics and Business Intelligence",
+      "content": "Transform your data into actionable insights to drive business growth. Our data analysts and BI specialists can help you collect, analyze, and visualize data, enabling you to make informed decisions and uncover hidden opportunities.",
+      "image": "https://cdn.discordapp.com/attachments/1087738815902400573/1095501715198984264/cdasmkt_soldering_circuits_and_programming_code_to_build_a_CNC__f0a6fa38-80c6-4596-9855-537a7350e7e6.png",
+      "link": "https://example.com/data-analytics"
+    }
+  ]
   }
-  

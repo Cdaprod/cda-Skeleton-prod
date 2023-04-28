@@ -1,16 +1,11 @@
 <script>
 		// The ordering of these imports is critical to your app working properly
-
 	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
-
 		// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
-
 	import '@skeletonlabs/skeleton/styles/all.css';
-	
 		// Most of your app wide CSS should be put in this file
-	
 	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, LightSwitch, Avatar } from '@skeletonlabs/skeleton';
 </script>
 
 <!-- App Shell -->
@@ -19,9 +14,11 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase sticky top right">David Cannan</strong>
+				<Avatar src="../../../static/avatar.jpg" action={filter} actionParams="#Summer84" />
+				<strong class="text-xl uppercase">David Cannan</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
+				<LightSwitch />
 				<a
 					class="btn btn-sm variant-ghost-surface"
 					href="https://twitter.com/cdasmktcda"

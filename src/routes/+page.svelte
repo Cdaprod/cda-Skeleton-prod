@@ -2,6 +2,8 @@
 	import { space } from 'postcss/lib/list';
 	import SectionCard from './SectionCard.svelte';
 	import pageContent from './pageContent.json';
+
+	console.log(pageContent.sections);
   </script>
 
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
@@ -34,8 +36,8 @@
 	</div>
 </div>
 
-<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto px-4 md:px-0">
-
+<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-5 md:px-auto">
+	{#if pageContent && pageContent.sections}
 	{#each pageContent.sections as section, index}
 	  <SectionCard
 		header={section.header}
@@ -43,10 +45,9 @@
 		image={section.image}
 		link={section.link}
 		altColor={index % 2 === 1}
-		class="m-4 p-4 rounded-md shadow-md border border-gray-200"
 	  />
 	{/each}
-
+	{/if}
 </div>
  
 
