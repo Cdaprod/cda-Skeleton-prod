@@ -6,6 +6,7 @@
 		// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	import { AppShell, AppBar, Avatar, LightSwitch } from '@skeletonlabs/skeleton';
+	import '../../../static/avatar.jpg';
 </script>
 
 <!-- App Shell -->
@@ -43,7 +44,7 @@
 				>
 					Linkedin
 				</a>
-				<Avatar src="../../../../static/avatar.jpg" style="filter: url({'#Noir'})" />
+				<Avatar src="avatar.jpg" style="filter: url({'#Noir'})" />
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
