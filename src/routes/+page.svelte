@@ -40,13 +40,8 @@ auto">
 {#if pageContent && pageContent.sections}
  {#each pageContent.sections as section, index}
   <Accordion>
-   <AccordionItem open>
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<svelte:fragment slot="summary">{section.header}</svelte:fragment>
-		<svelte:fragment slot="content">{section.content}</svelte:fragment>
-	</AccordionItem>
 	<AccordionItem>
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
+	
 		<svelte:fragment slot="summary">{section.header}</svelte:fragment>
 		<svelte:fragment slot="content">{section.content}</svelte:fragment>
 	</AccordionItem>
