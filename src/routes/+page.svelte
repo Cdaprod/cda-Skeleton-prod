@@ -59,7 +59,6 @@
 	  <SectionCard
 		header={section.header}
 		content={section.content}
-		<!--image={section.image}-->
 		link={section.link}
 		altColor={index % 2 === 1}
 	  />
