@@ -43,8 +43,7 @@
 				>
 					Linkedin
 				</a>
-				<Avatar src="../../../../static/avatar.jpg" style="filter: url({'#Noir'})" border="border-4 	border-surface-300-600-token hover:!border-primary-500"
-	cursor="cursor-pointer" />
+				<Avatar src="../../../../static/avatar.jpg" style="filter: url({'#Noir'})" />
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
