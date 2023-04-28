@@ -47,6 +47,12 @@
       "content": "Transform your data into actionable insights to drive business growth. Our data analysts and BI specialists can help you collect, analyze, and visualize data, enabling you to make informed decisions and uncover hidden opportunities.",
       "image": "https://cdn.discordapp.com/attachments/1087738815902400573/1095501715198984264/cdasmkt_soldering_circuits_and_programming_code_to_build_a_CNC__f0a6fa38-80c6-4596-9855-537a7350e7e6.png",
       "link": "https://example.com/data-analytics"
+    },
+    {
+      "header": "Programmable Logic Controllers",
+      "content": "Embedded software on custom designed hardware, and reconstructing circuits to dump EPROM for all sorts of fun",
+      "image": "https://cdn.discordapp.com/attachments/1087738815902400573/1095501715198984264/cdasmkt_soldering_circuits_and_programming_code_to_build_a_CNC__f0a6fa38-80c6-4596-9855-537a7350e7e6.png",
+      "link": "https://example.com/data-analytics"
     }
   ]
   }
