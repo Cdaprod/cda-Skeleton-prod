@@ -37,23 +37,28 @@
 </div>
 <span>
 <div class="container min-h-screen mx-auto flex justify-center items-center overflow-y-auto">
+auto">
+	{#if pageContent && pageContent.sections}
+	{#each pageContent.sections as section, index}
 <Accordion>
 	<AccordionItem open>
 		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<svelte:fragment slot="summary">(summary)</svelte:fragment>
-		<svelte:fragment slot="content">(content)</svelte:fragment>
+		<svelte:fragment slot="summary">{section.header}</svelte:fragment>
+		<svelte:fragment slot="content">{section.content}</svelte:fragment>
 	</AccordionItem>
 	<AccordionItem>
 		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<svelte:fragment slot="summary">(summary)</svelte:fragment>
-		<svelte:fragment slot="content">(content)</svelte:fragment>
+		<svelte:fragment slot="summary">{section.header}</svelte:fragment>
+		<svelte:fragment slot="content">{section.content}</svelte:fragment>
 	</AccordionItem>
+		{/each}
+		{/if}
 	<!-- ... -->
 </Accordion>
 </div>
 </span>
 
-<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-5 md:px-auto">
+<!--<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-5 md:px-auto">
 	{#if pageContent && pageContent.sections}
 	{#each pageContent.sections as section, index}
 	  <SectionCard
@@ -63,7 +68,7 @@
 	  />
 	{/each}
 	{/if}
-</div>
+</div>-->
  
 
 
