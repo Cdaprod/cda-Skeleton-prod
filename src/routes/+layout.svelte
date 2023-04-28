@@ -44,7 +44,7 @@
 				>
 					Linkedin
 				</a>
-				<Avatar src="avatar.jpg" style="filter: url({'#Noir'})" />
+				<!-- <Avatar src="avatar.jpg" style="filter: url({'#Noir'})" /> -->
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
