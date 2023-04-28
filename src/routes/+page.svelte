@@ -36,7 +36,7 @@
 	</div>
 </div>
 
-
+<div class="container min-h-screen mx-auto flex justify-center items-center overflow-y-auto">
 <Accordion>
 	<AccordionItem open>
 		<svelte:fragment slot="lead">(icon)</svelte:fragment>
@@ -50,6 +50,7 @@
 	</AccordionItem>
 	<!-- ... -->
 </Accordion>
+</div>
 
 
 <div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-5 md:px-auto">
