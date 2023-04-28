@@ -5,7 +5,7 @@
 	import '@skeletonlabs/skeleton/styles/all.css';
 		// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
-	import { AppShell, AppBar, LightSwitch, Avatar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
 
 <!-- App Shell -->
@@ -14,7 +14,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<Avatar src="../../../static/avatar.jpg" action={filter} actionParams="#Summer84" />
+			<!--	<Avatar src="../../../static/avatar.jpg" action={filter} actionParams="#Summer84" /> -->
 				<strong class="text-xl uppercase">David Cannan</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
