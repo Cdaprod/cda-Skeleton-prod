@@ -1,12 +1,8 @@
 <script>
 	import { space } from 'postcss/lib/list';
-	import SectionCard from './SectionCard.svelte';
-	import pageContent from './pageContent.json';
+	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
   </script>
-
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
-
-
+  
 
 <div class="container min-h-screen mx-auto flex justify-center items-center overflow-y-auto">
 	<div class="space-y-10 text-center">
@@ -33,21 +29,6 @@
 		</div>
 	</div>
 </div>
-
-
-<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-5 md:px-auto">
-	{#if pageContent && pageContent.sections}
-	{#each pageContent.sections as section, index}
-	  <SectionCard
-		header={section.header}
-		content={section.content}
-		altColor={index % 2 === 1}
-	  />
-	{/each}
-	{/if}
-</div>
- 
-
 
 
 <style lang="postcss">
