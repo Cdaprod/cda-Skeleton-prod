@@ -59,3 +59,4 @@
   .section-card {
     @apply transition-all duration-200 transform hover:scale-105;
   }
+</style> 
