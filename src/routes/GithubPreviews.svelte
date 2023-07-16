@@ -5,33 +5,7 @@
   let projects = [];
 
   onMount(async () => {
-    const response = await fetch('https://api.github.com/graphql', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer GITHUB_TOKEN`
-      },
-      body: JSON.stringify({
-        query: `
-          query {
-            viewer {
-              repositories(first: 10) {
-                nodes {
-                  name
-                  description
-                  owner {
-                    login
-                  }
-                  openGraphImageUrl
-                  url
-                }
-              }
-            }
-          }
-        `
-      }),
-    });
-
+    const response = await fetch('/api/github');
     const { data } = await response.json();
 
     projects = data.viewer.repositories.nodes.map(node => ({
@@ -59,4 +33,4 @@
   .section-card {
     @apply transition-all duration-200 transform hover:scale-105;
   }
-</style> 
+</style>
