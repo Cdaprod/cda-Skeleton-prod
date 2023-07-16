@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-  import SectionCard from './SectionCards.svelte';
+  import SectionCard from './SectionCard.svelte';
   
   let projects = [];
 
