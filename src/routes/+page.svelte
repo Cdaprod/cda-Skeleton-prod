@@ -2,7 +2,7 @@
 	import { space } from 'postcss/lib/list';
 	import SectionCard from './SectionCard.svelte';
 	import pageContent from './pageContent.json';
-	import GithubPreviews from './GithubPreviews';
+	import GithubPreviews from './GithubPreviews.svelte';
   </script>
 
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
