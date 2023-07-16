@@ -9,7 +9,7 @@
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer YOUR_GITHUB_TOKEN`
+        'Authorization': `Bearer GITHUB_TOKEN`
       },
       body: JSON.stringify({
         query: `
