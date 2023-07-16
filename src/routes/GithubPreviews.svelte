@@ -7,6 +7,8 @@
   onMount(async () => {
     const response = await fetch('/api/github');
     const { data } = await response.json();
+    
+    console.log(data);
 
     projects = data.viewer.repositories.nodes.map(node => ({
       header: node.name,
