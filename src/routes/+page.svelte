@@ -2,6 +2,7 @@
 	import { space } from 'postcss/lib/list';
 	import SectionCard from './SectionCard.svelte';
 	import pageContent from './pageContent.json';
+	import GithubPreviews from './GithubPreviews';
   </script>
 
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
@@ -47,6 +48,10 @@
 	{/if}
 </div>
  
+ 
+<div class="container min-h-screen mx-30 flex flex-col md:flex-row md:grid md:grid-cols-3 gap-x-3 gap-y-6 justify-center items-center overflow-y-auto pl-5 md:px-auto">
+  <GithubPreviews />
+</div>
 
 
 
