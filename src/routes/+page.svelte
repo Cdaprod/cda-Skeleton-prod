@@ -3,7 +3,7 @@
 	import SectionCard from './SectionCard.svelte';
 	import pageContent from './pageContent.json';
 	import GithubPreviews from './GithubPreviews.svelte';
-  </script>
+</script>
 
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 
